@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.10.35027.167
+VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramCommerce.Server", "Server\InstagramCommerce.Server.csproj", "{C1D0626B-D545-4535-87AE-FFD8B57222CE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramCommerce.Client", "Client\InstagramCommerce.Client.csproj", "{CC3D9FEC-A3B9-47D2-8D67-D249BE828936}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramCommerce.Shared", "Shared\InstagramCommerce.Shared.csproj", "{0DDC595A-555F-4B65-8738-A1F35D53647D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramCommerce", "InstagramCommerce.csproj", "{83268EFB-3B17-4C3D-B564-50D8F9EFE4D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C1D0626B-D545-4535-87AE-FFD8B57222CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1D0626B-D545-4535-87AE-FFD8B57222CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1D0626B-D545-4535-87AE-FFD8B57222CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1D0626B-D545-4535-87AE-FFD8B57222CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC3D9FEC-A3B9-47D2-8D67-D249BE828936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC3D9FEC-A3B9-47D2-8D67-D249BE828936}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC3D9FEC-A3B9-47D2-8D67-D249BE828936}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC3D9FEC-A3B9-47D2-8D67-D249BE828936}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0DDC595A-555F-4B65-8738-A1F35D53647D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DDC595A-555F-4B65-8738-A1F35D53647D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DDC595A-555F-4B65-8738-A1F35D53647D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DDC595A-555F-4B65-8738-A1F35D53647D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83268EFB-3B17-4C3D-B564-50D8F9EFE4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83268EFB-3B17-4C3D-B564-50D8F9EFE4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83268EFB-3B17-4C3D-B564-50D8F9EFE4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83268EFB-3B17-4C3D-B564-50D8F9EFE4D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4B346D3C-F5D4-4501-B7A5-7960F658ADE2}
+		SolutionGuid = {4B63506C-DB05-40C2-9B88-7F51FE1A09B8}
 	EndGlobalSection
 EndGlobal

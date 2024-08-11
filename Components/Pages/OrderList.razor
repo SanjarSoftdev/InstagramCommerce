@@ -1,0 +1,27 @@
+﻿@page "/orders"
+@inject OrderService orderService
+@code {
+    private List<Order> orders;
+
+    protected override async Task OnInitializedAsync()
+    {
+        orders = await orderService.GetOrdersAsync();
+    }
+
+    private async Task UpdateOrderStatus(int orderId, string status)
+    {
+        try
+        {
+            await orderService.UpdateOrderStatusAsync(orderId, status);
+
+            // Update order status locally
+            Order order1 = orders.FirstOrDefault(o => o.Id == orderId);
+            var order = order1;
+            if (order != null)
+            {
+                order.Status = status;
+            }
+        }
+        catch { }
+    }
+}

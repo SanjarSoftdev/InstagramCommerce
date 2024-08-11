@@ -1,0 +1,19 @@
+﻿@page "/place-order"
+@inject OrderService orderService
+@code {
+    private Order newOrder = new Order();
+
+    private async Task GetPlaceOrder()
+    {
+        try
+        {
+            var placedOrder = await orderService.PlaceOrderAsync(newOrder);
+            newOrder = new Order(); // Reset form
+        }
+        catch (Exception)
+        {
+            
+            throw;
+        }
+    }
+}

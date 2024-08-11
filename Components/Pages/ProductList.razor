@@ -1,0 +1,11 @@
+﻿@page "/products"
+
+@inject InstagramCommerceContext _context
+@code {
+    private List<Product> products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await _context.Products.ToListAsync();
+    }
+}
